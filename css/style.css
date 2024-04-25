@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	min-height: 100vh;
-	background-color: #000000;
+	background-color: black;
 }
 
 .photo-grid {
@@ -41,7 +43,7 @@ body {
 	width: 100%;
 	padding: 25px 20px 20px;
 	background-color: rgba(255, 255, 255, 0.4);
-	backdrop-filter: blur(8px);
+	backdrop-filter: blur(6px);
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -62,7 +64,7 @@ body {
 .grid-item .inner-content h2,
 .grid-item .inner-content .eth {
 	color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Inter, sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: capitalize;
@@ -72,7 +74,7 @@ body {
 .grid-item .inner-content .eth .dollar {
 	display: block;
 	color: #ffffff;
-	font-family: 'Red Hat Display', sans-serif;
+	font-family: Inter, sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	text-decoration: underline;
@@ -80,54 +82,17 @@ body {
 	margin-top: 3px;
 }
 
-.grid-item .inner-content .eth {
+.grid-item .inner-content {
 	color: #0fdfe5;
 	text-align: right;
 }
 
-.grid-item .inner-content .eth .dollar {
+.grid-item .inner-content {
 	text-align: right;
 	text-decoration: none;
 }
 
-.grid-item .action-btns {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 12px;
-}
-
-.grid-item .action-btns button {
-	padding: 10px 18px;
-	color: #ffffff;
-	background-color: rgba(255, 255, 255, 0.5);
-	border: 1px solid transparent;
-	font-size: 12px;
-	line-height: 9px;
-	text-align: center;
-	text-transform: capitalize;
-	outline: none;
-	user-select: none;
-	transition: all 0.2s;
-	cursor: pointer;
-}
-
-.grid-item .action-btns .view-btn {
-	background-color: transparent;
-	border-color: #ffffff;
-}
-
-.grid-item .action-btns .bid-btn:hover {
-	background-color: transparent;
-	border-color: #ffffff;
-}
-
-.grid-item .action-btns .view-btn:hover {
-	background-color: rgba(255, 255, 255, 0.5);
-	border-color: transparent;
-}
-
-.grid-item .profiles {
+.profiles {
 	display: flex;
 	position: absolute;
 	top: -15px;
