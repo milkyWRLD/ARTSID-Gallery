@@ -89,19 +89,18 @@ body {
 
 @media screen and (max-width: 768px) {
 	.photo-grid {
-		grid-template-columns: repeat(2, 1fr); /* Display 2 columns */
-		grid-gap: 10px; /* Reduce the gap between grid items */
-		padding: 30px 10px; /* Adjust padding */
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+		padding: 30px 10px;
 	}
 
 	.grid-item .content {
-		padding: 15px; /* Adjust padding */
+		padding: 15px;
 	}
 }
 
-/* For screens smaller than 576px (smaller mobile devices) */
 @media screen and (max-width: 576px) {
 	.photo-grid {
-		grid-template-columns: 1fr; /* Display 1 column */
+		grid-template-columns: 1fr;
 	}
 }
