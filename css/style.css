@@ -83,7 +83,6 @@ body {
 	cursor: pointer;
 }
 
-/* При открытии изображения */
 .image-full-container.open {
 	display: flex;
 }
